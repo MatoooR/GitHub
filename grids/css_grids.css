@@ -182,7 +182,7 @@ body {
     text-align: justify;
 }
 
-.btn-neon{
+.btn-neon {
     position: relative;
     display: inline-block;
     padding: 15px 30px;
@@ -193,58 +193,68 @@ body {
     overflow: hidden;
     transition: 0.2s;
 }
-.btn-neon:hover{
+
+.btn-neon:hover {
     background: #b0f25b;
     box-shadow: 0 0 10px #b0f25b, 0 0 40px #b0f25b, 0 0 80px #b0f25b;
     transition-delay: 1s;
- }
-.btn-neon span{
+}
+
+.btn-neon span {
     position: absolute;
     display: block;
 }
-#span1{
+
+#span1 {
     top: 0;
     left: -100%;
     width: 100%;
     height: 2px;
-    background: linear-gradient(90deg, transparent,#b0f25b);
- }
- .btn-neon:hover #span1{
+    background: linear-gradient(90deg, transparent, #b0f25b);
+}
+
+.btn-neon:hover #span1 {
     left: 100%;
     transition: 1s;
 }
- #span3{
+
+#span3 {
     bottom: 0;
     right: -100%;
     width: 100%;
     height: 2px;
-    background: linear-gradient(270deg, transparent,#b0f25b);
+    background: linear-gradient(270deg, transparent, #b0f25b);
 }
- .btn-neon:hover #span3{
+
+.btn-neon:hover #span3 {
     right: 100%;
     transition: 1s;
     transition-delay: 0.5s;
 }
-#span2{
+
+#span2 {
     top: -100%;
     right: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(180deg,transparent,#a945c7);
+    background: linear-gradient(180deg, transparent, #a945c7);
 }
-.btn-neon:hover #span2{
+
+.btn-neon:hover #span2 {
     top: 100%;
     transition: 1s;
     transition-delay: 0.25s;
 }
-#span4{
+
+#span4 {
     bottom: -100%;
     left: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(360deg,transparent,#a945c7);
+    background: linear-gradient(360deg, transparent, #a945c7);
 }
-.btn-neon:hover #span4{
+
+.btn-neon:hover #span4 {
     bottom: 100%;
     transition: 1s;
     transition-delay: 0.75s;
@@ -253,8 +263,9 @@ body {
 .crecer {
     transition: all 0.5s;
 }
+
 .crecer:hover {
-    transform: scale(1.1 , 1.1);
+    transform: scale(1.1, 1.1);
 }
 
 
@@ -296,6 +307,7 @@ iframe {
 .texto p {
     text-align: justify;
 }
+
 .texto h2 {
     transition: 0.8s;
 }
@@ -630,122 +642,130 @@ iframe {
             "tres cuatro"
             "cinco seis";
     }
+
     .footer {
         grid-area: 3 / 1 / 4 / 4;
     }
+
     .pieCentro {
         margin: 1px 1%;
         grid-area: 3 / 2 / 4 / 3;
     }
+
     .pieDerecha {
         grid-area: 3 / 3 / 4 / 4;
     }
+
     .pieCentro {
         grid-area: 3 / 1 / 4 / 3;
     }
 }
 
 @media (max-width: 624px) {
-        /* HEADER */
-        .encabezado {
-            font-size: 1.5rem;
-        }
-    
-        .barSuperior {
-            font-size: 0.8rem;
-        }
-    
-        /* MAIN */
-        .main {
-            display: grid;
-            grid-template-columns: 1fr;
-            grid-template-rows: 360px 1fr;
-            grid-template-areas:
-                "barLateral "
-                "contenido"
-                "contenido";
-        }
-    
-        .encabezado {
-            font-size: 1.5rem;
-            padding: 2%;
-        }
-    
-        .barSuperior {
-            font-size: 0.8rem;
-        }
-    
-        .barLateral h3 {
-            padding: 1%;
-            text-align: center;
-        }
-    
-        .barLateral div {
-            padding: 2%;
-            margin-top: 1%;
-        }
-    
-        .introIndex {
-            padding: 20px;
-            height: 825px;
-        }
-    
-        .introIndex h1 {
-            font-size: 2.5rem;
-        }
-    
-        .introIndex h2 {
-            font-size: 2rem;
-        }
-    
-        /* INFO */
-        .quienes div,
-        .comida div,
-        .cultura div,
-        .educacion div,
-        .porque div,
-        .ubicacion div {
-            flex-direction: column;
-        }
-    
-        .informacion img,
-        iframe {
-            width: 100%;
-        }
-    
-        .texto {
-            width: 70%;
-            font-size: 1.2rem;
-        }
-    
-        /* VOCABULARIO */
-        .introVoc h1 {
-            font-size: 5rem;
-        }
-    
-        .mainVocabulario {
-            display: grid;
-            grid-template-columns: 1fr;
-            grid-template-rows: 360px 1fr;
-            grid-template-areas:
-                "barLateral "
-                "contenidoVocabulario"
-                "contenidoVocabulario";
-        }
-    
-        /* GALERIA */
 
-        .footer {
-            grid-area: 3 / 1 / 4 / 4;
-        }
-        .pieCentro {
-            margin: 1px 1%;
-            grid-area: 3 / 2 / 4 / 3;
-        }
-        .pieDerecha {
-            grid-area: 3 / 3 / 4 / 4;
-        }
-        .pieCentro {
-            grid-area: 3 / 1 / 4 / 3;
-        }
+    /* HEADER */
+    .encabezado {
+        font-size: 1.5rem;
+    }
+
+    .barSuperior {
+        font-size: 0.8rem;
+    }
+
+    /* MAIN */
+    .main {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 360px 1fr;
+        grid-template-areas:
+            "barLateral "
+            "contenido"
+            "contenido";
+    }
+
+    .encabezado {
+        font-size: 1.5rem;
+        padding: 2%;
+    }
+
+    .barSuperior {
+        font-size: 0.8rem;
+    }
+
+    .barLateral h3 {
+        padding: 1%;
+        text-align: center;
+    }
+
+    .barLateral div {
+        padding: 2%;
+        margin-top: 1%;
+    }
+
+    .introIndex {
+        padding: 20px;
+        height: 825px;
+    }
+
+    .introIndex h1 {
+        font-size: 2.5rem;
+    }
+
+    .introIndex h2 {
+        font-size: 2rem;
+    }
+
+    /* INFO */
+    .quienes div,
+    .comida div,
+    .cultura div,
+    .educacion div,
+    .porque div,
+    .ubicacion div {
+        flex-direction: column;
+    }
+
+    .informacion img,
+    iframe {
+        width: 100%;
+    }
+
+    .texto {
+        width: 70%;
+        font-size: 1.2rem;
+    }
+
+    /* VOCABULARIO */
+    .introVoc h1 {
+        font-size: 5rem;
+    }
+
+    .mainVocabulario {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 360px 1fr;
+        grid-template-areas:
+            "barLateral "
+            "contenidoVocabulario"
+            "contenidoVocabulario";
+    }
+
+    /* GALERIA */
+
+    .footer {
+        grid-area: 3 / 1 / 4 / 4;
+    }
+
+    .pieCentro {
+        margin: 1px 1%;
+        grid-area: 3 / 2 / 4 / 3;
+    }
+
+    .pieDerecha {
+        grid-area: 3 / 3 / 4 / 4;
+    }
+
+    .pieCentro {
+        grid-area: 3 / 1 / 4 / 3;
+    }
 }
