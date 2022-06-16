@@ -222,6 +222,7 @@ iframe {
 .texto p {
     text-align: justify;
 }
+
 .texto h2 {
     transition: 0.8s;
 }
@@ -556,122 +557,130 @@ iframe {
             "tres cuatro"
             "cinco seis";
     }
+
     .footer {
         grid-area: 3 / 1 / 4 / 4;
     }
+
     .pieCentro {
         margin: 1px 1%;
         grid-area: 3 / 2 / 4 / 3;
     }
+
     .pieDerecha {
         grid-area: 3 / 3 / 4 / 4;
     }
+
     .pieCentro {
         grid-area: 3 / 1 / 4 / 3;
     }
 }
 
 @media (max-width: 624px) {
-        /* HEADER */
-        .encabezado {
-            font-size: 1.5rem;
-        }
-    
-        .barSuperior {
-            font-size: 0.8rem;
-        }
-    
-        /* MAIN */
-        .main {
-            display: grid;
-            grid-template-columns: 1fr;
-            grid-template-rows: 360px 1fr;
-            grid-template-areas:
-                "barLateral "
-                "contenido"
-                "contenido";
-        }
-    
-        .encabezado {
-            font-size: 1.5rem;
-            padding: 2%;
-        }
-    
-        .barSuperior {
-            font-size: 0.8rem;
-        }
-    
-        .barLateral h3 {
-            padding: 1%;
-            text-align: center;
-        }
-    
-        .barLateral div {
-            padding: 2%;
-            margin-top: 1%;
-        }
-    
-        .introIndex {
-            padding: 20px;
-            height: 825px;
-        }
-    
-        .introIndex h1 {
-            font-size: 2.5rem;
-        }
-    
-        .introIndex h2 {
-            font-size: 2rem;
-        }
-    
-        /* INFO */
-        .quienes div,
-        .comida div,
-        .cultura div,
-        .educacion div,
-        .porque div,
-        .ubicacion div {
-            flex-direction: column;
-        }
-    
-        .informacion img,
-        iframe {
-            width: 100%;
-        }
-    
-        .texto {
-            width: 70%;
-            font-size: 1.2rem;
-        }
-    
-        /* VOCABULARIO */
-        .introVoc h1 {
-            font-size: 5rem;
-        }
-    
-        .mainVocabulario {
-            display: grid;
-            grid-template-columns: 1fr;
-            grid-template-rows: 360px 1fr;
-            grid-template-areas:
-                "barLateral "
-                "contenidoVocabulario"
-                "contenidoVocabulario";
-        }
-    
-        /* GALERIA */
 
-        .footer {
-            grid-area: 3 / 1 / 4 / 4;
-        }
-        .pieCentro {
-            margin: 1px 1%;
-            grid-area: 3 / 2 / 4 / 3;
-        }
-        .pieDerecha {
-            grid-area: 3 / 3 / 4 / 4;
-        }
-        .pieCentro {
-            grid-area: 3 / 1 / 4 / 3;
-        }
+    /* HEADER */
+    .encabezado {
+        font-size: 1.5rem;
+    }
+
+    .barSuperior {
+        font-size: 0.8rem;
+    }
+
+    /* MAIN */
+    .main {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 360px 1fr;
+        grid-template-areas:
+            "barLateral "
+            "contenido"
+            "contenido";
+    }
+
+    .encabezado {
+        font-size: 1.5rem;
+        padding: 2%;
+    }
+
+    .barSuperior {
+        font-size: 0.8rem;
+    }
+
+    .barLateral h3 {
+        padding: 1%;
+        text-align: center;
+    }
+
+    .barLateral div {
+        padding: 2%;
+        margin-top: 1%;
+    }
+
+    .introIndex {
+        padding: 20px;
+        height: 825px;
+    }
+
+    .introIndex h1 {
+        font-size: 2.5rem;
+    }
+
+    .introIndex h2 {
+        font-size: 2rem;
+    }
+
+    /* INFO */
+    .quienes div,
+    .comida div,
+    .cultura div,
+    .educacion div,
+    .porque div,
+    .ubicacion div {
+        flex-direction: column;
+    }
+
+    .informacion img,
+    iframe {
+        width: 100%;
+    }
+
+    .texto {
+        width: 70%;
+        font-size: 1.2rem;
+    }
+
+    /* VOCABULARIO */
+    .introVoc h1 {
+        font-size: 5rem;
+    }
+
+    .mainVocabulario {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 360px 1fr;
+        grid-template-areas:
+            "barLateral "
+            "contenidoVocabulario"
+            "contenidoVocabulario";
+    }
+
+    /* GALERIA */
+
+    .footer {
+        grid-area: 3 / 1 / 4 / 4;
+    }
+
+    .pieCentro {
+        margin: 1px 1%;
+        grid-area: 3 / 2 / 4 / 3;
+    }
+
+    .pieDerecha {
+        grid-area: 3 / 3 / 4 / 4;
+    }
+
+    .pieCentro {
+        grid-area: 3 / 1 / 4 / 3;
+    }
 }
